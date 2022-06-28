@@ -159,15 +159,14 @@ const productController = {
   async getProduct(req, res, next) {
     let documents;
 
-    try {
+    try {  
       documents = await Product.find().sort({ _id: -1 });
-      //Pagination
 
       res.json(documents);
     } catch (error) {
       return next(CustomErrorHandler.serverError());
     }
-  },
-};
+  }
+}; 
 
 export default productController;

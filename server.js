@@ -2,7 +2,7 @@
 import express  from "express";
 import mongoose from "mongoose";   
 import path from "path"; 
-import { fileURLToPath } from 'url';
+import { fileURLToPath } from 'url'; 
 
 //confing folder has index.js file whcich exports an object
 import { APP_PORT } from "./config/index.js"; 
@@ -33,7 +33,7 @@ const __dirname = path.dirname(__filename);
 
 global.appRoot = path.resolve(__dirname);
 
-//
+//using urlencoded
 app.use(express.urlencoded({extended : false}));
 //To get req in JSON form
 app.use(express.json());
