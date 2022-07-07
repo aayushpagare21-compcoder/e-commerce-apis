@@ -21,7 +21,8 @@ https://user-images.githubusercontent.com/65719027/177694027-fd1d5063-382f-4886-
 
 https://user-images.githubusercontent.com/65719027/177695562-66d87a18-ca36-4d3f-beeb-32455bc91ddc.mp4 
 
-- Update retrieve delete products 
+- Update retrieve delete products  
+
 https://user-images.githubusercontent.com/65719027/177697155-2a2f5731-7154-4d9a-bd34-bf04cfdb1f81.mp4
 
 
